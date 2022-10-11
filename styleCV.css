@@ -94,7 +94,7 @@ footer{
     font-size: 18px;
     text-align: center;
 }
-@media all and (max-width: 1000px){
+@media all and (max-device-width: 480px){
     #liseret{
         display: none;
     }
