@@ -93,7 +93,7 @@ footer{
     font-size: 18px;
     text-align: center;
 }
-@media all and (max-width: 1200px){
+@media all and (max-device-width: 480px){
     #liseret{
         display: none;
     }
@@ -101,6 +101,8 @@ footer{
         display: flex;
         flex-direction: column;
         text-align: center;
+        width: 99%;
+       
     }
     h1{
         border: solid navy 4px;
@@ -115,5 +117,12 @@ footer{
         font-size: 1.2em;
         
     }
-    
+    section{
+        width: 99%;
+    }
+    img{
+        float: left;
+        height: fit-content;
+        
+    }
 }
