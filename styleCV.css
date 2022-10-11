@@ -94,3 +94,14 @@ footer{
     font-size: 18px;
     text-align: center;
 }
+@media all and (max-width: 1000px){
+    #liseret{
+        display: none;
+    }
+    article{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: auto;
+    }
+}
