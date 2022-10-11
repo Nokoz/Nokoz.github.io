@@ -93,6 +93,9 @@ footer{
     font-size: 18px;
     text-align: center;
 }
+
+/* Responsive mobile */
+
 @media all and (max-device-width: 480px){
     #liseret{
         display: none;
@@ -100,7 +103,7 @@ footer{
     article{
         display: flex;
         flex-direction: column;
-        text-align: center;
+        text-align: left;
         width: 99%;
        
     }
@@ -120,9 +123,9 @@ footer{
     section{
         width: 99%;
     }
-    img{
-        float: left;
-        height: fit-content;
+    #photo{
+        display: flex;
+        justify-content: center;
         
     }
 }
