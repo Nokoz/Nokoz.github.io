@@ -93,6 +93,14 @@ footer{
     font-size: 18px;
     text-align: center;
 }
+.ig{
+    display: flex;
+    height: 80px;
+    width: 80px;
+    justify-content: center;
+    margin: auto;
+    
+}
 
 /* Responsive mobile */
 
